@@ -2,8 +2,8 @@
   "name": "mathematics-exercise",
   "version": "0.1.0",
   "private": true,
-  "homepage": "",
-  "dependencies": "https://peacemaker-die.github.io/mathematics-exercise/",
+  "homepage": "https://peacemaker-die.github.io/mathematics-exercise/",
+  "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
@@ -18,7 +18,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "gh-pages -d build",
+    "deploy": "yarn build && gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
